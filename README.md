@@ -6,6 +6,7 @@
 + Build interactive web applications with the world’s most popular backend
 + Use the latest technology for editing and creating amazing web applications
 + Manage application data by learning SQL and NoSQL database architecture
++ Create stunning designs by using modern design tools like Figma and Sketch
 
 ![Alt text](image.png)
 
