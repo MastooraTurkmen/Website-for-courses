@@ -22,4 +22,4 @@
 
 ### **_Footer_**
 
-![Alt text](image-2.png)
+![Alt text](./img/image-2.png)
