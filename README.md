@@ -7,6 +7,7 @@
 + Use the latest technology for editing and creating amazing web applications
 + Manage application data by learning SQL and NoSQL database architecture
 + Create stunning designs by using modern design tools like Figma and Sketch
++ Use the most popular frontend framework to create modern PWAs
 
 ![Alt text](image.png)
 
