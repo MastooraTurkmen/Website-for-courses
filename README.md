@@ -1,8 +1,16 @@
-# A Website For A Best Coures
+# A Website For The Best Courses
 
 > From No Stack To Full Stack
 
-<img src="./img/html_icon.svg" alt="HTML Icon"> <img src="./img/node_js_icon.svg" alt="Node Js Icon"> <img src="./img/vscode_icon.svg" alt="VS Code Icon"> <img src="./img/database_icon.svg" alt="Database Icon"> <img src="./img/edit_page_icon.svg" alt="Edite image Icon"> <img src="./img/react_icon.svg" alt="React Icon">
+<img align="left" alt="Visual Studio Code" width="35px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" style="padding-right:10px;" />
+<img align="left" alt="HTML5"  width="35px"  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" style="padding-right:10px;" />
+<img align="left" alt="CSS3" width="35px"  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" style="padding-right:10px;" />
+<img align="left" alt="React"  width="35px"  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" style="padding-right:10px;" />
+<img align="left" alt="Nodejs"  width="35px"  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" style="padding-right:10px;" />
+<img align="left" alt="Nodejs"  width="35px"  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" style="padding-right:10px;" />
+
+<br />
+<br />
 
 + Start with the basics by learning HTML/CSS to build your first website
 + Build interactive web applications with the world’s most popular backend
