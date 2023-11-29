@@ -1,0 +1,200 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    color: #1B2522;
+    font-family: Cambria;
+}
+
+.header-full{
+    height: 100vh;
+    background-image: url(./img/header_image.jpg);
+    background-size: cover;
+    background-position-x: 40%;
+    background-position-y: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    position: relative;
+}
+
+.nav{
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1B2522;
+}
+
+.nav-top{
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+}
+
+.logo{
+    width: 40px;
+}
+
+.nav-list{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-list a{
+    text-decoration: none;
+    color: white;
+    text-decoration-style: none;
+    margin-left: 1em;
+    font-size: 1.5em;
+}
+
+.nav-list a:hover{
+    color: #CCC;
+}
+
+.title{
+    font-size: 3rem;
+    margin: 0;
+}
+
+.sub-title{
+    margin-top: .5em;
+    font-size: 1.5rem;
+    margin-bottom: 1em;
+}
+
+
+.btn{
+    background-color: hsl(200, 100%, 50%);
+    color: white;
+    text-decoration: none;
+    border-radius: 3rem;
+    padding: .25em 1em;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover,
+.btn:focus{
+    background-color: hsl(200, 100%, 40%);
+}
+
+.arrow-down{
+    position: absolute;
+    width: 30px;
+    bottom: 2em;
+}
+
+
+.grid{
+    margin: 2rem;
+
+}
+
+.grid-title{
+    margin: 0;
+    font-size: 3em;
+    color: black;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.grid-all{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(auto, 450px));
+    justify-content: center;
+    align-items: center;
+    row-gap: .5rem;
+    column-gap: 3rem;
+}
+
+.grid-all-list{
+    display: flex;
+    align-items: center;
+}
+
+.grid-all-list img{
+    width: 40px;
+    margin-right: 1em;
+}
+
+.accent{
+    background-color: #0af;
+    padding: 1.5rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.free-title{
+    color: white;
+    margin: 0;
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+.accent-subtitle{
+    color: white;
+    max-width: 450px;
+    font-size: 1.5rem;
+}
+
+
+.section{
+    margin-bottom: 1em; 
+    margin-top: 1em;
+}
+
+form{
+    max-width: 900px;
+    margin: 0 auto;
+
+}
+
+form label{
+    color: black;
+    font-weight: bold;
+}
+
+form input,
+form textarea{
+    width: 100%;
+    outline: none;
+    border: 1px solid #1B2522;
+    border-radius: 5px;
+    margin-bottom: .75rem;
+    margin-top: .5rem;
+    padding: .5em;
+    font-family: inherit;
+    color: inherit;
+}
+
+form input:hover,
+form textarea:hover{
+    border: 1px solid #0af;
+}
+
+form textarea{
+    resize: vertical;
+    min-height: 75px;
+    max-height: 200px;
+}
+
+.btn-send{
+    font-size: inherit;
+    text-align: end;
+    border-radius: .4em;
+}
+
+.right-btn{
+    text-align: right;
+}
