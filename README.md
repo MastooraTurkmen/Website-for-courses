@@ -19,6 +19,21 @@
 + Create stunning designs by using modern design tools like Figma and Sketch
 + Use the most popular frontend framework to create modern PWAs
 
+## Mobile
+
+### **_Header_**
+
+![Alt text](./img/image-mobile-header.png)
+
+### **_Curriculum_**
+
+![Alt text](./img/image-mobile-curriculum.png)
+![Alt text](./img/image-mobile-price.png)
+
+
+### **_Footer_**
+
+![Alt text](./img/image-mobile-contact.png)
 
 
 ## Desktop
@@ -36,6 +51,4 @@
 ### **_Footer_**
 
 ![Alt text](./img/image-2.png)
-
-
 
