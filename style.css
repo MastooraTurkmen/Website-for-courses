@@ -240,3 +240,46 @@ form textarea{
     font-size: .75rem;
     color: #777;
 }
+
+
+.feature{
+    margin-bottom: .5rem;
+}
+
+.feature.accent{
+    color: #777;
+    text-decoration: line-through;
+}
+
+.feature:last-child{
+    margin-bottom: 0;
+}
+
+
+@media (max-width: 700px){
+    .pricing-card-container{
+        flex-wrap: wrap;
+    }
+    
+    .pricing-card, 
+    .accent-large{
+        width: 100%;
+        margin: 0;
+        margin-bottom: 1rem;
+    }
+
+    .pricing-card:first-child,
+    .pricing-card:last-child{
+        border-radius: .3rem;
+        border: 1px solid black;
+    }
+
+    .pricing-card:last-child{
+        margin-bottom: 0;
+    }
+
+    .feature{
+        text-align: center;
+    }
+
+}
