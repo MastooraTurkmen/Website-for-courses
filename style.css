@@ -135,7 +135,6 @@ body{
     align-items: center;
 }
 
-
 .section{
     margin: 1rem;
 
@@ -257,6 +256,16 @@ form textarea{
 
 
 @media (max-width: 700px){
+
+    .grid-all{
+        grid-template-columns: minmax(auto, 450px);
+        row-gap: 30px;
+    }
+
+    .header-full{
+        background-position-x: 65%;
+    }
+
     .pricing-card-container{
         flex-wrap: wrap;
     }
