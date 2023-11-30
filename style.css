@@ -126,26 +126,13 @@ body{
     margin-right: 1em;
 }
 
-.accent{
+.accent-section{
     background-color: #0af;
     padding: 1.5rem;
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.free-title{
-    color: white;
-    margin: 0;
-    font-size: 3rem;
-    text-transform: uppercase;
-}
-
-.accent-subtitle{
-    color: white;
-    max-width: 450px;
-    font-size: 1.5rem;
 }
 
 
@@ -197,4 +184,9 @@ form textarea{
 
 .right-btn{
     text-align: right;
+}
+
+
+.pricing-card{
+
 }
