@@ -188,17 +188,17 @@ form textarea{
 
 
 .pricing-card-container{
-    padding: 1rem;
     display: flex;
     justify-content: center;
 }
 
 .pricing-card{
     background-color: #DCF4FF;
-    border-radius: .5em;
+    border-radius: .3em;
     padding: 1em;
     margin: 1rem 0;
     border: 1px solid black;
+    text-align: left;
 }
 
 .accent-large{
@@ -216,4 +216,27 @@ form textarea{
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
     border-radius: none;
+}
+
+
+.pricing-header{
+    text-align: center;
+    margin-bottom: 1.5rem;
+
+}
+
+.plan-name{
+    font-size: 1.5rem;
+    margin-bottom: .5rem;
+}
+
+.plan-price{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.plan-price::after{
+    content: '/mo';
+    font-size: .75rem;
+    color: #777;
 }
