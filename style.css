@@ -205,3 +205,15 @@ form textarea{
     margin: 0;
     background-color: white;
 }
+
+.pricing-card:first-child{
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-radius: none;
+}
+
+.pricing-card:last-child{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-radius: none;
+}
