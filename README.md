@@ -20,6 +20,9 @@
 + Use the most popular frontend framework to create modern PWAs
 
 
+
+## Desktop
+
 ### **_Header_**
 
 ![Alt text](./img/image.png)
@@ -27,9 +30,12 @@
 
 ### **_Curriculum_**
 
-![Alt text](./img/image-1.png)
+![Alt text](./img/image-curriculum.png)
 
 
 ### **_Footer_**
 
 ![Alt text](./img/image-2.png)
+
+
+
