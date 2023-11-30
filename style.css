@@ -282,4 +282,7 @@ form textarea{
         text-align: center;
     }
 
+    .feature.accent{
+        display: none;
+    }
 }
