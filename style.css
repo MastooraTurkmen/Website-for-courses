@@ -294,6 +294,7 @@ form textarea{
     .pricing-card:last-child{
         border-radius: .3rem;
         border: 1px solid black;
+        transform-origin: center;
     }
 
     .pricing-card:last-child{
