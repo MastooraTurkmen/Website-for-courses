@@ -81,6 +81,7 @@ body{
     padding: .25em 1em;
     border: none;
     cursor: pointer;
+    transition: 100ms;
 }
 
 .btn:hover,
