@@ -217,6 +217,7 @@ form textarea{
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
     border-radius: none;
+    transform-origin: right;
 }
 
 .pricing-card:last-child{
