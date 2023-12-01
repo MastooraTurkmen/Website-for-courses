@@ -286,7 +286,7 @@ form textarea{
     }
 
     to{
-        transform: translateX(-10px);
+        transform: translateY(-10px);
     }
 }
 
