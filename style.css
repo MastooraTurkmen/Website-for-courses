@@ -201,6 +201,7 @@ form textarea{
     margin: 1rem 0;
     border: 1px solid black;
     text-align: left;
+    transition: transform 100ms;
 }
 
 .accent-large{
