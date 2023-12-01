@@ -54,6 +54,7 @@ body{
     text-decoration-style: none;
     margin-left: 1em;
     font-size: 1.5em;
+    transition: color 100ms;
 }
 
 .nav-list a:hover{
