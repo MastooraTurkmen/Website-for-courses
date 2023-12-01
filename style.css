@@ -93,7 +93,7 @@ body{
     position: absolute;
     width: 30px;
     bottom: 2em;
-    animation: arrow-down 1s alternate infinite linear;
+    animation: arrow-down-bounce 1s alternate infinite linear;
 }
 
 
@@ -279,6 +279,16 @@ form textarea{
     }
 }
 
+
+@keyframes arrow-down-bounce {
+    from {
+        transform: translateY(0);
+    }
+
+    to{
+        transform: translateX(-10px);
+    }
+}
 
 @media (max-width: 700px){
     .grid-all{
