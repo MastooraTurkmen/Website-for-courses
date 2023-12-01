@@ -224,6 +224,7 @@ form textarea{
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
     border-radius: none;
+    transform-origin: left;
 }
 
 
