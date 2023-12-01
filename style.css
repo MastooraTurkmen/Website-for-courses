@@ -97,6 +97,11 @@ body{
 }
 
 
+.grow-btn:hover{
+    transform: scale(1.1);
+}
+
+
 .grid{
     margin: 2rem;
 
@@ -278,7 +283,7 @@ form textarea{
         transform: rotate(-5deg);
     }
 }
-
+ 
 
 @keyframes arrow-down-bounce {
     from {
