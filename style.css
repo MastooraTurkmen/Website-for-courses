@@ -204,6 +204,10 @@ form textarea{
     transition: transform 100ms;
 }
 
+.pricing-card:hover{
+    transform: scale(1.05);
+}
+
 .accent-large{
     margin: 0;
     background-color: white;
