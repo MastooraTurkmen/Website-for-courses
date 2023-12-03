@@ -11,6 +11,11 @@ body{
     --sub-title-duration: 500ms;
     --btn-grow-duration: 200ms;
     --arrow-down-duration: 200ms;
+
+    --sub-title-delay: calc(var(--title-duration) - 200ms);
+    --nav-delay: calc(var(--sub-title-delay) + var(--sub-title-duration));
+    --btn-grow-delay: var(--nav-delay);
+    --scroll-down-delay: var(--nav-delay);
 }
 
 .header-full{
