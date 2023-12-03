@@ -111,6 +111,10 @@ body{
 }
 
 
+.grow-btn {
+    animation: btn-grow-enter var(--btn-grow-duration) var(--btn-grow-delay) backwards;
+}
+
 .grow-btn:hover{
     transform: scale(1.1);
     box-shadow: 0 2px 5px 1px black;
@@ -324,6 +328,12 @@ form textarea{
     }
 }
 
+
+@keyframes nav-enter{
+    from {
+        transform: translateY(-100%);
+    }
+}
 
 @media (max-width: 700px){
     .grid-all{
