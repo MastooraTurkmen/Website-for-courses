@@ -335,6 +335,13 @@ form textarea{
     }
 }
 
+@keyframes btn-grow-enter {
+    from {
+        transform: scale(0);
+    }
+}
+
+
 @media (max-width: 700px){
     .grid-all{
         grid-template-columns: minmax(auto, 450px);
