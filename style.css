@@ -191,6 +191,7 @@ form{
 form label{
     color: black;
     font-weight: bold;
+    font-size: 1.5em;
 }
 
 form input,
@@ -199,7 +200,7 @@ form textarea{
     outline: none;
     border: 1px solid #1B2522;
     border-radius: 5px;
-    margin-bottom: .75rem;
+    margin-bottom: 1rem;
     margin-top: .5rem;
     padding: 1em;
     font-family: inherit;
