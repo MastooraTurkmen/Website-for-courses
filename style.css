@@ -201,7 +201,7 @@ form textarea{
     border-radius: 5px;
     margin-bottom: .75rem;
     margin-top: .5rem;
-    padding: .5em;
+    padding: 1em;
     font-family: inherit;
     color: inherit;
     transition: border-color 100ms;
