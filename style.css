@@ -118,7 +118,10 @@ body{
 
 
 .grow-btn {
-    animation: btn-grow-enter var(--btn-grow-duration) var(--btn-grow-delay) backwards;
+    animation: btn-grow-enter var(--btn-grow-duration) 
+    var(--btn-grow-delay) backwards;
+    padding: .8em 1.5em;
+    font-size: 1.2em;
 }
 
 .grow-btn:hover{
@@ -397,4 +400,5 @@ form textarea{
     .feature.accent{
         display: none;
     }
+
 }
