@@ -74,6 +74,7 @@ body{
 .title{
     font-size: 3rem;
     margin: 0;
+    animation: title-enter var(--title-duration);
 }
 
 .sub-title{
@@ -297,6 +298,7 @@ form textarea{
  
 
 @keyframes arrow-down-bounce {
+
     from {
         transform: translateY(0);
     }
