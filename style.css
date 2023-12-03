@@ -316,8 +316,11 @@ form textarea{
     }
 }
 
-
-
+@keyframes sub-title-enter{
+    from {
+        transform: translateX(100vw);
+    }
+}
 
 
 @media (max-width: 700px){
