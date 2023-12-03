@@ -219,9 +219,10 @@ form textarea{
 }
 
 .btn-send{
-    font-size: inherit;
+    font-size: 1.5em;
     text-align: end;
     border-radius: .4em;
+
 }
 
 .right-btn{
