@@ -52,6 +52,7 @@ body{
 .logo{
     width: 40px;
     border-radius: 50%;
+    height: 40px;
 }
 
 .nav-list{
