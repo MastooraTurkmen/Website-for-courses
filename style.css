@@ -108,8 +108,10 @@ body{
     width: 30px;
     bottom: 2em;
     animation: 
-       arrow-down-bounce 1s alternate infinite linear,
-       arrow-down-enter var(--arrow-down-duration) var(--scroll-down-delay) backwards;
+       arrow-down-bounce calc(var(--arrow-down-duration) 
+       + var(--scroll-down-delay)) 1s alternate infinite linear,
+       arrow-down-enter var(--arrow-down-duration) 
+       var(--scroll-down-delay) backwards;
 }
 
 
