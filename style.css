@@ -30,6 +30,7 @@ body{
     color: white;
     align-items: center;
     position: relative;
+    overflow: hidden;
 }
 
 .nav{
