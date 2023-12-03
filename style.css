@@ -345,6 +345,12 @@ form textarea{
     }
 }
 
+@keyframes arrow-down-enter{
+    from {
+        transform: scale(0) rotate(180deg);
+    }
+}
+
 
 @media (max-width: 700px){
     .grid-all{
